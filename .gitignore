@@ -1,0 +1,50 @@
+# Secrets
+.env
+.env.*
+
+# Python / JS
+__pycache__/
+*.py[cod]
+.conda/
+venv/
+.venv/
+env/
+node_modules/
+
+# Models and data
+*.pth
+*.pt
+*.pkl
+*.h5
+*.onnx
+*.zip
+*.rar
+*.xls
+*.xlsx
+*.pdf
+*.mat
+datasets/
+DataSet/
+dataset/
+defect_dataset/
+pose_dataset/
+NutritionModel/
+nutritionModel/
+BamaPig2D/
+BD_METRO/
+runs/
+runs_v2/
+checkpoints/
+gradcam_results/
+gradcam_analysis/
+confusion_matrix_results/
+gan_metrics/
+image copy*.png
+image copy*.jpeg
+Screenshot*.png
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
